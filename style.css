@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.bg_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: -999;
+    opacity: 0.6;
+}
+
+/* Clock */
+.clock_container {
+    position:absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+}
+
+.clockDiv h2 {
+    font-size: 48px;
+}
+
+.clockDiv h4 {
+    font-size: 32px;
+    margin-top: 40px;
+}
+.clock_container form input {
+    font-size: 26px;
+    margin-top: 40px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+.clockDiv input::placeholder {
+    color: #fff;
+}
+
+
+/* TODO */
+.todo_container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 30vw;
+    
+}
+
+.todo_list {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+    padding: 10px;
+    list-style: none;   
+}
+
+.todo_list li {
+    padding: 5px 10px;
+    color: #fff;
+    position: relative;
+}
+
+.todo_list li button {
+    background: none;
+    border: none;
+    width: 22px;
+    height: 22px;
+    float: right;
+    color:dodgerblue;
+
+}
+
+
+.todo_container input {
+    margin: 10px auto;
+    padding-bottom: 10px;
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none;
+}
+
+.todo_container input::placeholder {
+    color:#fff;
+}
+
+.weather_container {
+    position:absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.weather span {
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
