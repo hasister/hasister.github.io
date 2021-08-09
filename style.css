@@ -36,7 +36,7 @@ body {
     margin-top: 40px;
 }
 .clock_container form input {
-    font-size: 16px;
+    font-size: 24px;
     margin-top: 40px;
     text-align: center;
     background: transparent;
@@ -46,6 +46,7 @@ body {
 }
 .clock_container input::placeholder {
     color: #fff;
+    font-size: 16px;
 }
 
 
