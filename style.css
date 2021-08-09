@@ -27,16 +27,16 @@ body {
     text-align: right;
 }
 
-.clockDiv h2 {
+.clock_container h2 {
     font-size: 48px;
 }
 
-.clockDiv h4 {
+.clock_containerv h4 {
     font-size: 32px;
     margin-top: 40px;
 }
 .clock_container form input {
-    font-size: 26px;
+    font-size: 16px;
     margin-top: 40px;
     text-align: center;
     background: transparent;
@@ -44,7 +44,7 @@ body {
     border-bottom: 2px solid #fff;
     color: #fff;
 }
-.clockDiv input::placeholder {
+.clock_container input::placeholder {
     color: #fff;
 }
 
