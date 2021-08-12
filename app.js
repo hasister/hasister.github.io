@@ -117,10 +117,8 @@ toDo.addEventListener("submit", toDoSubmit)
 
 // BG
 function changeBG(number) {
-    const image = new Image();
-    image.src =  `images/bg_${number}.jpg`;
-    image.classList.add("bg_img")
-    document.body.appendChild(image);
+    image =  `images/bg_${number}.jpg`;
+    document.body.style.backgroundImage="url("+image+")";
 }
 
 const randomNumber = Math.ceil(Math.random() * 3);
@@ -182,7 +180,6 @@ function loadCoords() {
     } else {
         const parsedCoords = JSON.parse(loadedCoords);
         getWeather(parsedCoords.latitude, parsedCoords.longitude);
-        hourWeather(parsedCoords.latitude, parsedCoords.longitude);
     }
 }
 
